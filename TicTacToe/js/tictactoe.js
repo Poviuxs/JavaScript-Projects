@@ -45,9 +45,8 @@ function computersTurn() {
     while (!success) { 
         pickASquare = String(Math.floor(Math.random() * 9));
         if (placeXOrO(pickASquare)) { 
-            placeXOrO(pickASquare);
-            success = true;
-        };
+            return
+        }
     }
 }
 
