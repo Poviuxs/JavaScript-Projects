@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="inner">
+            <h1>Basic jQuery</h1>
+            <p id="1">Paragraph 1</p>
+            <p id="2">Paragraph 2</p>
+            <p id="3">Paragraph 3</p>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            // Change the color of the second paragraph
+            $("#2").css({"color": "red"});
+
+            // Hide the heading when the third paragraph is clicked
+            $("#3").click(function () {
+                $("h1").hide();
+
+                // Hide all paragraphs with a slide up animation over 0.8 seconds
+                $("p").delay(1000).slideUp(800);
+            });
+
+            // Event setup using a convenience method for all <p> tags
+            $("p").click(function() {
+                console.log("You clicked a paragraph!");
+            });
+        });
+    </script>
+</body>
+</html>
