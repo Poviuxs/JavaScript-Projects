@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List Application</title>
+    <link rel="stylesheet" href="css/todo.css">
+</head>
+<body>
+    <h1>My To-Do List</h1>
+    <input id="task" placeholder="Enter your task here...">
+    <button id="add">Add Item</button>
+    <hr>
+    <div id="todos"></div>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>Created by Povilas</p>
+        <p>Date: <span id="current-date"></span></p>
+    </footer>
+    
+    <script src="js/todo.js"></script>
+    
+    <script>
+        // Function to display the current date in the footer
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
