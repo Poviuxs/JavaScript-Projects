@@ -3,9 +3,9 @@
 These are some small projects I made using JavaScript.
 
 ## Projects
--  Pizza Menu
-- Tic-Tac-Toe Game
-- Calculator
+-  [Pizza Menu](https://github.com/Poviuxs/Pizza_Project)
+- [Tic-Tac-Toe Game](https://github.com/Poviuxs/JavaScript-Projects/tree/main/TicTacToe)
+- [Calculator](https://github.com/Poviuxs/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/Calculator%20assigment%20)
 
  **Pizza Menu**  
   This project is a menu used to order pizza with a various selection of toppings. It then takes the input information and calculates a price for the order.
